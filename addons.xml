@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.all-in" name="All In Repo" version="1.0.1" provider-name="All In">
+	<extension point="xbmc.addon.repository" name="kodi senyor repository">
+			<info compressed="false">https://raw.githubusercontent.com/privat-allin/all-in/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/privat-allin/all-in/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/privat-allin/all-in/raw/master/Zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">All In</summary>
+		<description lang="en">All In</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="script.module.requests"
+       name="requests"
+       version="2.12.4"
+       provider-name="kennethreitz, beenje">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python HTTP for Humans</summary>
+    <description>Packed for KODI from https://github.com/kennethreitz/requests</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Apache2</license>
+    <forum></forum>
+    <website>http://python-requests.org</website>
+    <source>https://github.com/beenje/script.module.requests</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+<addon id="plugin.program.optools" name="op tools" version="1.0.1" provider-name="Optimus Prime">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="start.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">op tools</summary>
+    <description lang="he">kodi config tools</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon
+  id="skin.xonfluence"
+  version="3.3.14"
+  name="Xonfluence"
+  provider-name="Helly">
+  <requires>
+    <import addon="xbmc.gui" version="5.12.0"/>
+	  <import addon="script.favourites" version="6.0.3"/>
+	  <import addon="service.skin.widgets" version="0.0.32"/>
+	  <import addon="service.library.data.provider" version="0.1.6"/>
+	  <import addon="script.randomandlastitems" version="2.2.2"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
+    <summary lang="en_US">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
+    <summary lang="nl">Uitgebreide MOD van Confluence skin origineel door Jezz_X en CCM door Mudislander.</summary>
+    <description lang="en">Xonfluence is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
+    <description lang="en_US">Xonfluence is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
+    <description lang="nl">Xonfluence is een MOD van Confluence om een grotere aanpassingsmogelijkheid te geven ten opzichten van de standaard skin (gebaseerd op Mudislander's CCM).</description>
+    <disclaimer lang="en">You break it - You get to keep the pieces</disclaimer>
+    <disclaimer lang="en_US">You break it - You get to keep the pieces</disclaimer>
+    <disclaimer lang="nl">Wie zijn billen brandt - moet op de blaren zitten</disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+	  <screenshot>resources/screenshot-01.jpg</screenshot>
+	  <screenshot>resources/screenshot-02.jpg</screenshot>
+	  <screenshot>resources/screenshot-03.jpg</screenshot>
+	  <screenshot>resources/screenshot-04.jpg</screenshot>
+	  <screenshot>resources/screenshot-05.jpg</screenshot>
+	  <screenshot>resources/screenshot-06.jpg</screenshot>
+	  <screenshot>resources/screenshot-07.jpg</screenshot>
+	  <screenshot>resources/screenshot-08.jpg</screenshot>
+	  <screenshot>resources/screenshot-09.jpg</screenshot>
+    </assets>
+    <news>See changelog for latest changes</news>
+  </extension>
+</addon>
+<addon id="plugin.video.op_menu_addon" name="op Manu Addon" version="1.0.0" provider-name="Optimuus Prime">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="resources/art/gart.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service"
+  library="resources/art/start.py" start="startup">
+</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+	<description lang="he"></description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.imdb.watchlists"
+version="0.0.32"
+name="IMDb Watchlists"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service"
+  library="service.py" start="startup">
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">IMDb Watchlists</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+<addon id="service.addons.autoupdate"
+    name="auto addon update" version="1.0.2" provider-name="op">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="manual.py"> 
+     <provides>executable</provides> 
+  </extension> 
+  <extension point="xbmc.service" library="default.py" start="login">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="he">עדכון הרחבות וספריות באופן אוטומטי</summary>
+    <description lang="he">עדכון  מאגרי רפו להרחבות וספריות באופן אוטומטי</description>
+    <language></language>
+  </extension>
+</addon>
+<addon id="service.autosubsop"
+    name="AutoSubs op Mod" version="1.0.0" provider-name="schumi2004,Mafarricos,op">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="default.py" start="login" />
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Auto Search for Subtitles on Play</summary>
+    <description lang="en">Auto Search for Subtitles on Playback start if no subs are found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
+    <summary lang="pt">Pesquisa Automática por legendas no Play</summary>
+    <description lang="pt">Pesquisa Automática por legendas na reprodução se não existirem legendas.[CR][CR]Créditos dos icons vão para zNET Computer Solutions http://www.znetcs.pl</description>	
+    <platform>all</platform>
+    <language>en</language>
+  </extension>
+</addon>
+<addon id="skin.titan.hebmod" version="1.0.0" name="Titan Heb Mod" provider-name="marcelveldt / op">
+	<requires>
+		<import version="5.12.0" addon="xbmc.gui"/>		
+		<import addon="script.skinshortcuts" version="0.6.5"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+        <import addon="resource.uisounds.titan.modern" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">		
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">MediaPortal's Titan Skin portiert für Kodi mit jeder Menge Funktionen.</summary>
+		<summary lang="en">Rtl Hebrew Mod MediaPortal's Titan skin ported to Kodi enriched with lot's of features.</summary>
+		<summary lang="nl">De Titanskin van MediaPortal is geconverteerd naar Kodi en verrijkt met talloze functionaliteiten</summary>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.kodi.tv/forumdisplay.php?fid=212</forum>
+		<website>http://forum.kodi.tv/forumdisplay.php?fid=212</website>
+		<email></email>
+		<source></source>
+	</extension>
+</addon>
+</addons>
