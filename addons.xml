@@ -161,7 +161,7 @@
     <news>See changelog for latest changes</news>
   </extension>
 </addon>
-<addon id="plugin.video.op_menu_addon" name="op Manu Addon" version="1.0.0" provider-name="Optimuus Prime">
+<addon id="plugin.video.op_menu_addon" name="op Manu Addon" version="1.0.1" provider-name="Optimuus Prime">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
