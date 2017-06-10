@@ -103,7 +103,7 @@
     <email>beenje AT gmail.com</email>
   </extension>
 </addon>
-<addon id="plugin.program.optools" name="op tools" version="1.0.1" provider-name="Optimus Prime">
+<addon id="plugin.program.optools" name="op tools" version="1.0.2" provider-name="Optimus Prime">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
