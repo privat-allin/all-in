@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="repository.all-in" name="All In Repo" version="1.0.1" provider-name="All In">
-	<extension point="xbmc.addon.repository" name="kodi senyor repository">
+	<extension point="xbmc.addon.repository" name="All In Repo">
 			<info compressed="false">https://raw.githubusercontent.com/privat-allin/all-in/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/privat-allin/all-in/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/privat-allin/all-in/raw/master/Zips/</datadir>
