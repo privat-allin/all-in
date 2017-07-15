@@ -161,6 +161,20 @@
     <news>See changelog for latest changes</news>
   </extension>
 </addon>
+<addon id="service.subtitles.All_Subs" name="All Subs" version="1.0.7" provider-name="ebs">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+	<import addon="script.module.requests" version="2.9.1" />
+	<import addon="script.common.plugin.cache" version="2.5.5"/>
+  </requires>
+  <extension point="xbmc.subtitle.module" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">All sites Subs</summary>
+    <description lang="en">All sites Subs. Subcenter.wizdom,subcene,opensubtitles. Thanks to:Catz,wizdom,manacker,amet</description>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
 <addon id="resource.language.he_il" version="3.0.9" name="Hebrew" provider-name="Team Kodi">
   <requires>
     <import addon="kodi.resource" version="1.0.0"/>
