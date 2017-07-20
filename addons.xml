@@ -1,5 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.Ebs" name="Ebs_Repo" version="1.0" provider-name="Ebs">
+	<extension point="xbmc.addon.repository" name="Ebs_Repo">
+		<info compressed="false">http://ebs.netai.net/Plugins/addons.xml</info>
+		<checksum>http://ebs.netai.net/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://ebs.netai.net/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Ebs Repo</summary>
+		<description>Ebs Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
 <addon id="repository.all-in" name="All In Repo" version="1.0.1" provider-name="All In">
 	<extension point="xbmc.addon.repository" name="All In Repo">
 			<info compressed="false">https://raw.githubusercontent.com/privat-allin/all-in/master/addons.xml</info>
