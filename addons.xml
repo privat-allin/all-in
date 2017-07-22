@@ -242,7 +242,7 @@
  			<screenshot>resources/screenshot-10.jpg</screenshot>
  		</assets>   
 </addon>
-<addon id="plugin.video.op_menu_addon" name="op Manu Addon" version="1.0.4" provider-name="Optimuus Prime">
+<addon id="plugin.video.op_menu_addon" name="op Manu Addon" version="1.0.5" provider-name="Optimuus Prime">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
