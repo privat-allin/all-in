@@ -107,6 +107,29 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+<addon id="plugin.video.anarchitv"
+       name="[COLOR yellow]Televiz - B2k Playlist[/COLOR]"
+       version="1.2.0"
+       provider-name="Anonymous / B2k">
+  <requires>
+ <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>B2k Playlist</summary>
+    <description>B2k Playlist Music</description>
+	<description lang="he">רשימת פלייליסטים מהאתרים 99 רדיוס וגלגל"צ של B2k</description>
+	<disclaimer lang="en">
+	The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners
+	</disclaimer>
+	<license></license>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
 <addon id="repository.all-in" name="All In Repo" version="1.0.1" provider-name="All In">
 	<extension point="xbmc.addon.repository" name="All In Repo">
 			<info compressed="false">https://raw.githubusercontent.com/privat-allin/all-in/master/addons.xml</info>
