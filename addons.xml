@@ -379,7 +379,7 @@
   </extension>
 </addon>
 <addon id="plugin.video.imdb.watchlists"
-version="0.0.33"
+version="0.0.35"
 name="IMDb Watchlists"
 provider-name="primaeval">
 <requires>
